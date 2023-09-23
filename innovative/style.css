@@ -1,0 +1,45 @@
+*
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* navbar css  */
+.nav-wrapper {
+    background-color: #2c367c;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 9;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.nav-container .nav-items ul{
+    display: flex;
+    gap: 25px;
+    font-size: 1.1rem;
+}
+
+.nav-container .nav-items ul li a:hover{
+    color: yellow;
+}
+
+.logo {
+    height: 3.5rem;
+}
